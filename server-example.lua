@@ -17,3 +17,17 @@ server {
              ngx.say(ngx.var.arg_a)
          }
      }
+     
+     #Hello, Lua!
+     location /hellolua {
+          default_type 'text/plain';
+
+          content_by_lua '
+          local name = ngx.var.arg_name or "Anonymous"
+          ngx.say("Hello, ", name, "!")';
+     }
+
+#$> curl http://localhost/hellolua?name=Lua
+#Hello, Lua!
+     
+}
