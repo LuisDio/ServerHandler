@@ -39,4 +39,10 @@ Then you can install a package, say, openresty, like this: <br/>
 sudo apt-get install openresty
 ```
 
+Then you can use the command below to start, stop restart reload:
+```
+sudo systemctl start openresty
+sudo systemctl stop openresty
+sudo systemctl restart openresty
+
 Following will be some example running your script from OpenResty using ngx_lua
