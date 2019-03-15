@@ -1,6 +1,6 @@
 # ServerHandler
 
-This is how you can Install openresty nginx for ubuntu 16.04. I recommand not having regular nginx as Openresty will be bundled with all you need to run a normal nginx server. <br/> For more information check the official website [OpenResty](https://openresty.org/)
+This is how you can Install OpenResty nginx for ubuntu 16.04. I recommand not having regular nginx as Openresty will be bundled with all you need to run a normal nginx server(OpenResty = Nginx + a collection of modules). <br/> For more information check the official website [OpenResty](https://openresty.org/)
 
 [LuaJIT 2.0/2.1](http://luajit.org/luajit.html)
 
